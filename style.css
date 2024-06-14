@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@400;500;600&family=Open+Sans:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+nav {
+    background-color: #18929d;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+nav li{
+    margin-left: 10px;
+    color: #fff;
+    padding: 8px 15px;
+}
+
+nav li a{
+    text-decoration: none;
+    font-family:'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav ul li:hover{
+    background-color: #288086;
+    color: black;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.2s;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url(img/img1.jpg);
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto .titulo {
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.texto .sub-titulo{
+    color: #fff;
+    font-size: 58px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.texto .botoes {
+    margin-top: 30px;
+}
+
+.texto .botoes button{
+    height: 55px;
+    width: 170px;
+    border-radius: 10px;
+    border: 0;
+    margin: 0 10px;
+    font-size: 20px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.botoes button:hover{
+    background-color: #288086;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+}
